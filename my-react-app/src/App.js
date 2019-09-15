@@ -29,6 +29,7 @@ class App extends Component {
         //var { isLoaded, items} = this.state;
 
         if(false) {
+            
             return <div>Loading...</div>
         }
 

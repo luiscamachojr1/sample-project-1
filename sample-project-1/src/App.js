@@ -33,26 +33,33 @@ class App extends Component {
             return <div>Loading...</div>
         }
 
+        //items to grab: Gamer Tag, Name, AGG Score, About text, Avatar, cover image
+
         else {
 
-            console.table('this.state', Object.keys(this.state.items))
+            console.log('this.state', Object.keys(this.state.items))
 
             return (
 
 
                 <div className="App">
-                   <ul>
+                   
                         {Object.keys(this.state.items).map(item => (
                             <li>
-                                {item}:{JSON.stringify(this.state.items[item])}
+                                {item}:{JSON.stringify(
+                                    this.state.items[item]
+                                        )
+                                    }
+                                    
                             </li>
                         ))}
 
-                    </ul>
+                    
                     
                 </div>
             );
         }
     }
 }
+
 export default App;

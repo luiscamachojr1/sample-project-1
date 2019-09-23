@@ -1,4 +1,5 @@
-myObj = {
+[ 
+  {
     "_id": "58d5fefedcec6912bceaaa6c",
     "createdAt": 1480836473364,
     "id": "7eaf20c8-ba0d-4570-a41d-f3087f6edbd0",
@@ -367,6 +368,4 @@ myObj = {
     "verifyShortToken": "134131",
     "verifyToken": "4e76689d7e0abdb0195a9859ee8efb"
   }
-
-MyJSON = JSON.stringify(myObj);
-localStorage.setItem("testJSON", myJSON);
+]
